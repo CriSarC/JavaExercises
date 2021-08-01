@@ -9,7 +9,6 @@ package pkg1.ejerciciosvariables;
 //multiplicación.
 
 public class EjerciciosVariables {
-
     
     public static void main(String[] args) {
        
