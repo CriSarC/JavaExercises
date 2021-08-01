@@ -1,24 +1,25 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package pkg1.ejerciciosvariables;
 
-/**
- *
- * @author crist
- */
-public class EjerciciosVariables {
+//Escribe un programa en el que se declare
+//las variables enteras numeroA y numeroB.
+//Asignales los valores 89 y 323. Mostrar
+//por consola el valor de cada variable, 
+//la suma, la resta, la división y la 
+//multiplicación.
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-        
-        System.out.println("Hola Mi Guauuu");
-        
-    }
+public class EjerciciosVariables {
     
+    public static void main(String[] args) {
+       
+        int numeroA = 89;
+        int numeroB = 323;
+        System.out.println("la el numero A es: " + numeroA);
+        System.out.println("la el numero B es: " + numeroB);
+        System.out.println("la suma: numero A + numero B es: " + (numeroA+numeroB));
+        System.out.println("la Resta: numero A - numero B es: " + (numeroA-numeroB));
+        System.out.println("la Multiplicación: numero A x numero B es: " + (numeroA*numeroB));
+        System.out.println("la División: numero A / numero B es: " + (numeroA/numeroB));
+        System.out.println("Hola Mundo");
+                }
 }
