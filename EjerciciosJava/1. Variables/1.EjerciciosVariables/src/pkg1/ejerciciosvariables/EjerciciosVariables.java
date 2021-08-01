@@ -9,7 +9,6 @@ package pkg1.ejerciciosvariables;
 //multiplicación.
 
 public class EjerciciosVariables {
-
     
     public static void main(String[] args) {
        
@@ -21,5 +20,6 @@ public class EjerciciosVariables {
         System.out.println("la Resta: numero A - numero B es: " + (numeroA-numeroB));
         System.out.println("la Multiplicación: numero A x numero B es: " + (numeroA*numeroB));
         System.out.println("la División: numero A / numero B es: " + (numeroA/numeroB));
+        System.out.println("Hola Mundo");
                 }
 }
