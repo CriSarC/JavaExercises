@@ -8,7 +8,7 @@ package pkg1.ejerciciosvariables;
 //la suma, la resta, la división y la 
 //multiplicación.
 
-public class EjerciciosVariables {
+public class Ejercicio1Variables {
     
     public static void main(String[] args) {
        

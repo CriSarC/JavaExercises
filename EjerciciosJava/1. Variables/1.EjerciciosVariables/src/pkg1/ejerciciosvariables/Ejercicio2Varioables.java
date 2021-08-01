@@ -7,15 +7,13 @@ package pkg1.ejerciciosvariables;
 
 import java.util.Scanner;
 
-public class Ejercicio2 {
+public class Ejercicio2Varioables {
     public static void main(String[] args) {
         System.out.print("ingrese dinero en pesos colombianos a conveertir: ");
         Scanner scanner = new Scanner(System.in);
         double dineroPesos = scanner.nextInt();
         double tasaConversion = 3895;
-  
-        
-        System.out.printf("la conversion de: " + dineroPesos  + " es: " + "%.2f%n",(dineroPesos/tasaConversion) );
+        System.out.printf("la conversion a dolares de: " + dineroPesos  + " es: " + "%.2f%n",(dineroPesos/tasaConversion) );
     }
     
 }
