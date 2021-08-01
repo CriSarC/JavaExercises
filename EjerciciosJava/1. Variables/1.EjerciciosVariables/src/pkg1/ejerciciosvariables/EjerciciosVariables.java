@@ -12,14 +12,7 @@ public class EjerciciosVariables {
     
     public static void main(String[] args) {
        
-        int numeroA = 89;
-        int numeroB = 323;
-        System.out.println("la el numero A es: " + numeroA);
-        System.out.println("la el numero B es: " + numeroB);
-        System.out.println("la suma: numero A + numero B es: " + (numeroA+numeroB));
-        System.out.println("la Resta: numero A - numero B es: " + (numeroA-numeroB));
-        System.out.println("la Multiplicación: numero A x numero B es: " + (numeroA*numeroB));
-        System.out.println("la División: numero A / numero B es: " + (numeroA/numeroB));
+     
         System.out.println("Hola Mundo");
                 }
 }
