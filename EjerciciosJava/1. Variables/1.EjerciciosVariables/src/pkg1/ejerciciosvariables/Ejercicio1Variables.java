@@ -10,11 +10,14 @@ import java.util.Scanner;
 //la suma, la resta, la división y la 
 //multiplicación.
 
-public class EjerciciosVariables {
+public class Ejercicio1Variables {
     
     public static void main(String[] args) {
+
     
         //Solucion Samuel 
+        
+        System.out.println("Solucion Samuel");
          int numeroA;
          int numeroB;
         do 
@@ -33,5 +36,7 @@ public class EjerciciosVariables {
         System.out.println("La Multiplicación de los numeros ingresados es: " + (numeroA+numeroB));
         System.out.println("La Multiplicación de los numeros ingresados es: " + (numeroA/numeroB));
    
-}
+
+     }
+
 }
