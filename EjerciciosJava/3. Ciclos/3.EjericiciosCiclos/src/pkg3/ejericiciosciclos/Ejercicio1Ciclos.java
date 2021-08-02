@@ -6,7 +6,7 @@ package pkg3.ejericiciosciclos;
  *0 a 100 utilizando un bucle while.
  * @author crist
  */
-public class Ejericicio1Ciclos {
+public class Ejercicio1Ciclos {
 
     public static void main(String[] args) {
        int contador = 1;
