@@ -7,7 +7,12 @@ package pkg2.ejercicioscondicionales;
 import java.util.Scanner;
 
 /**
- * @author CriSarC
+ * Esta clase define la solucion al siguiente ejercicio: 
+ * Escribe un programa que ordene tres números
+ * enteros introducidos por teclado. Que los muestre
+ * sin ordenar y despues ordenados por consola
+ * @author: CriSarC
+ * @version: 1-08-2021-1 
  */
 public class Ejercicio2Condicionales {
     public static void main(String[] args) {
