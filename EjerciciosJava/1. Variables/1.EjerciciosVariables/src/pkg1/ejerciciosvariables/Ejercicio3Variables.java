@@ -19,7 +19,7 @@ public class Ejercicio3Variables {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Ingrese el precio total de la compra: ");
-        double costoBase = scanner.nextFloat();
+        float costoBase = scanner.nextFloat();
         int iva = 665;
         System.out.printf("Base sin IVA: " + "%.2f%n",(costoBase-iva));
         System.out.println("IVA: " + iva);

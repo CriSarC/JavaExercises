@@ -9,11 +9,14 @@ import java.util.Scanner;
 
 public class Ejercicio2Varioables {
     public static void main(String[] args) {
-        System.out.print("ingrese dinero en pesos colombianos a conveertir: ");
+        
+        System.out.print("ingrese dinero en pesos colombianos a convertir: ");
         Scanner scanner = new Scanner(System.in);
-        double dineroPesos = scanner.nextInt();
+        double dineroPesos = scanner.nextDouble();
         double tasaConversion = 3895;
         System.out.printf("la conversion a dolares de: " + dineroPesos  + " es: " + "%.2f%n",(dineroPesos/tasaConversion) );
+        
+        
     }
     
 }
