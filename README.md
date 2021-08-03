@@ -1,2 +1,2 @@
 # JavaExercises
-a Java exercises repository
+a Java exercises repository to resolve Retos
