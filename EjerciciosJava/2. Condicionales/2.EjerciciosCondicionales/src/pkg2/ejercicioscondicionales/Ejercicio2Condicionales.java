@@ -1,8 +1,4 @@
-/*
-Escribe un programa que ordene tres números
-enteros introducidos por teclado. Que los muestre
-sin ordenar y despues ordenados por consola
- */
+
 package pkg2.ejercicioscondicionales;
 import java.util.Scanner;
 

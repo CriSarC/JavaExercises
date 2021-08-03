@@ -7,7 +7,7 @@ package pkg1.ejerciciosvariables;
 
 import java.util.Scanner;
 
-public class Ejercicio2Varioables {
+public class Ejercicio2Variables {
     public static void main(String[] args) {
         
         System.out.print("ingrese dinero en pesos colombianos a convertir: ");
