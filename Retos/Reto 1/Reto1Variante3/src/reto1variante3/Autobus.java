@@ -61,7 +61,7 @@ public class Autobus {
     
     public void recojerPasajero(int estrato){
         
-       if(puertaAbierta==true){
+       if(puertaAbierta==true && (nMaximoPasajeros-nPasajeros)>0){
          int costoP = 0;
         if(estrato==1 || estrato==1 || estrato==2){
             costoP = 1500;
@@ -74,6 +74,7 @@ public class Autobus {
         }
         cantidadDinero += costoP;
         nPasajeros++;
+        
     }
     }
     

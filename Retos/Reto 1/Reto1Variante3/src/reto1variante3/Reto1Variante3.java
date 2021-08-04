@@ -8,6 +8,7 @@ public class Reto1Variante3 {
        /**
         * se instancia el objeto camion1
         */
+       
        Autobus camion1 = new Autobus("Pepe", 30, false);
        /**
         * se muestran los atributos del objeto
@@ -173,6 +174,7 @@ public class Reto1Variante3 {
         System.out.println("motorEncendido: "+camion1.isMotorEncendido());
         System.out.println("wifiEncendido: "+camion1.isWifiEncendodo());
         System.out.println("enMarcha: "+camion1.isEnMarcha());
+        
     }
     
 }
