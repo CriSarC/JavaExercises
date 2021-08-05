@@ -7,7 +7,7 @@ package pkg1.ejerciciosvariables;
 
 import java.util.Scanner;
 
-public class Ejercicio2Varioables {
+public class Ejercicio2Variables {
     public static void main(String[] args) {
         
         Scanner scanner = new Scanner(System.in);

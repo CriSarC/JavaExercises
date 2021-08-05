@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package pkg3.ejericiciosciclos;
+package reto1variante2;
 
 /**
  *
  * @author crist
  */
-public class EjericiciosCiclos {
+public class Reto1Variante2 {
 
     /**
      * @param args the command line arguments
