@@ -61,16 +61,6 @@ public class Ejercicio1Variables {
         System.out.printf("Opción no valida, ejecute nuevamente el programa" );    
         }
     
-        
-        
-        
-        
-        
-        
-        //Solucion Samuel 
-        
-       
-  
      }
 
 }
