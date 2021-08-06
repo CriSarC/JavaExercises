@@ -20,7 +20,7 @@ public class Ejercicio1Condicionales {
         switch (solucionUsuario){
            
         case 1: // Caso de Chalo Gonzalo
-            System.out.print("Ingrese un número de un día de la sumana: ");
+            System.out.print("Ingrese un número de un día de la semana: ");
             int diaSemana = scanner.nextInt();
             if(diaSemana == 1){
                 System.out.println("Lunes");
@@ -48,7 +48,7 @@ public class Ejercicio1Condicionales {
             }
         break;
         case 2: // Caso de Samuel J
-            System.out.print("Ingrese un número de un día de la sumana: ");
+            System.out.print("Ingrese un número de un día de la semana: ");
             int dia= scanner.nextInt();
             switch (dia){
 
