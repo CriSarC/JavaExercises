@@ -1,6 +1,8 @@
 
 package pkg4.ejerciciosarreglos;
 
+import java.util.Scanner;
+
 /**
  *la siguiente clase resuelve este ejercicio:
  * Crear un arreglo de 10 caracteres con el nombre
@@ -12,6 +14,17 @@ package pkg4.ejerciciosarreglos;
  */
 public class Ejercicio1Arreglos {
     public static void main(String[] args) {
+    
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Escoja la solución: ");
+        System.out.println("1 - Chalo Gonzalo ");
+        System.out.println("2 - Samuel J");
+        int solucionUsuario = scanner.nextInt();
+        
+        switch (solucionUsuario){
+           
+        case 1: // Caso de Chalo Gonzalo
+        
         char [] arreglo = new char [10];
         
         arreglo [0] = 'h';
@@ -24,6 +37,14 @@ public class Ejercicio1Arreglos {
         for (int i=0; i<arreglo.length;i++){
             System.out.print(arreglo[i] + " ");
         }
+        
+        break;
+        case 2: // Caso de Samuel J
+        System.out.print("Samuel lo hizo igual");    
+        break;
+        
+        default:
+        System.out.printf("Opción no valida, ejecute nuevamente el programa" );    
     }
-    
+ }
 }
