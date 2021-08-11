@@ -1,36 +1,33 @@
-
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package pkg5.ejercicios_02;
 
 /**
- *Crear un programa que imprima por consola una pirámide hueca 
- * (solo mostrara el contorno, el cual estará hecha con asteriscos). 
- * Tener en cuenta que la base esta formada por 9 asteriscos
-
-        *
-      *   *
-    *       *
-  *           *
-* * * * * * * * *
-
+ *
  * @author crist
  */
-public class Ejercicios_02 {
-
+public class Ejercicio2Ciclos {
     public static void main(String[] args) {
-      
-            char piramide = '*';
+        char piramide = '*';
             int espacioIzquierda = 0;
             int espacioCentro = 0;
             int capa = 0;
             String guion = " ";
             String hueco = " ";
             StringBuffer buff = new StringBuffer();
-            System.out.println("     "+"*");
+            
+            for (int base=0; base <10; base++ ){
+               System.out.print("*");
+           }
+            System.out.println(" ");
            do{
                 capa++;
-                espacioIzquierda = ((3*2) - (capa*2));
+                espacioIzquierda = ((capa));
                 buff.delete(0, buff.length());
-                for(int i=espacioIzquierda;i>0;i--){
+                for(int i=espacioIzquierda;i<3;i++){
                     buff.append(guion);
                 }
                 System.out.print(buff);
@@ -51,10 +48,8 @@ public class Ejercicios_02 {
                 }
                 System.out.println(" ");
            }while(capa<3);
+           System.out.println("     "+"*");
            
-           for (int base=0; base <10; base++ ){
-               System.out.print("*");
-           }
     }
-    
-}
+    }
+
