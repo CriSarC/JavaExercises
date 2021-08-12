@@ -41,10 +41,12 @@ public class SIMCard {
     private boolean modoAvionActivado = false;
     private boolean datosActivados = false;
     private int saldoDatos = 0;
-    
-    public SIMCard(String numeroTelefono){
+
+    public SIMCard(String numeroTelefono) {
         this.numeroTelefono = numeroTelefono;
     }
+    
+
     
     public void comprarDatos(int c){
         int costo = 1;
@@ -177,6 +179,8 @@ public class SIMCard {
     public void setSaldoDatos(int saldoDatos) {
         this.saldoDatos = saldoDatos;
     }
+
+ 
     
     
 }
